@@ -1,0 +1,56 @@
+{
+	"introductionCue": "",
+	"conclusionCue": "",
+	"topics": [
+		{
+			"title": "Types of Scanners", 
+			"importance": "4", 
+			"keyPoints": [{
+				"keyPointTitle": "Drum Scanners", 
+				"importance": "4",
+				"wordLimit": "1"
+			},
+			{
+				"keyPointTitle": "Flatbed Scanners", 
+				"importance": "5",
+				"wordLimit": "1"
+			}],
+			"topicText": "<div>A scanner is a device that uses a light source to electronically convert an image into binary data (0s and 1s). This binary data can then be used to store the scanned image on a computer. A scanner recreates an image by using small electronic components referred to as the scanner's 'eyes' (Scanner tips 2000). The type of 'eyes' used in today's scanners are charge-coupled devices (CCD) and photomultiplier tubes (PMT). These electronic eyes measure the amount of light reflected from individual points on the page and translate it to digital signals that correspond to the brightness of each point (Englander 2000).</div>",
+			"wordLimit": 100,
+			"showActive": false
+		}
+	],
+	"ktars": [
+	{
+		"title": "Terminology",
+		"entryField": "",
+		"userKtars": [
+		],
+		"lectureKtars": [
+		]
+
+	},
+	{
+		"title": "Authors",
+		"entryField": "",
+		"userKtars": [
+		],
+		"lectureKtars": [
+		]
+
+	},
+	{
+		"title": "Readings",
+		"entryField": "",
+		"userKtars": [
+		],
+		"lectureKtars": [
+		]
+
+	}
+
+	],
+	"introductionText": "<div>The Kelly outbreak is a large phenomenon in Australia's colonial history. Whilst some people prefer to see the outbreak as a simple criminal incident between an outlaw and the police, most historians view it as a broader sociological phenomenon, involving conflict between a larger rural community and the colonial authorities.</div><div>An important issue for historians has been to understand the underlying causes of this criminal outbreak, whether it was mainly due to personal, ethnic or socio-economic factors. This essay will critically prüfen each of these explanations and argue that the actions of the Kellys and their supporters, and the reactions of the police can best be understood in terms of broad socio-economic developments in rural Victoria at the time.</div>",
+	"conclusionText": "",
+	"executiveSummary": "<div>The purpose of this report is to survey the current state of scanner technology and to briefly disect predicted advancements in the field.</div><div>By examining a range of recently published journal articles, newspaper articles and Internet sites on the topic of scanners this report describes the main types of scanners in common use today and examines their performance in relation to four criteria: resolution, bit-depth, dynamic range and software. The report then considers the effect of further technological advances in these four areas, as well as the deployment of new sensor technology on the future development of scanners.</div>"
+}
