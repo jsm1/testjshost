@@ -654,14 +654,14 @@ angular.module('myStudyApp', ['ngSanitize', 'ngTagsInput', 'ng-sortable'])
 			for (var i = 0; i < splitText.length; i++) {
 				stagingContent.innerHTML += splitText[i];
 				//exceeded page height, create a new page
-				if (stagingContent.clientHeight > pageHeight) {
+				if (document.getElementById("staging-content").clientHeight > pageHeight) {
 					pages[pagesCount] = stagingContent.innerHTML.substring(0, stagingContent.innerHTML.length - splitText[i].length);
 					pagesCount++;
 					stagingContent.innerHTML = splitText[i];
 				}
 			}
 			pages[pagesCount] = stagingContent.innerHTML;
-			stagingContent.innerHTML = "";
+			//stagingContent.innerHTML = "";
 			console.log(pages);
 			return pages;
 		}
