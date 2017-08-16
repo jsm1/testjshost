@@ -641,7 +641,7 @@ angular.module('myStudyApp', ['ngSanitize', 'ngTagsInput', 'ng-sortable'])
 			var stagingBlock = document.getElementById("staging-component-block");
 			var stagingContent = document.getElementById("staging-content");
 			stagingBlock.style.visibility = "hidden";
-			var height = stagingContent.outerHeight;
+			var height = stagingContent.clientHeight;
 			console.log("HEIGHT IS " + height);
 			//page size is line height * 39 from cael's definition of a page
 			var lineHeight = 26
@@ -651,7 +651,7 @@ angular.module('myStudyApp', ['ngSanitize', 'ngTagsInput', 'ng-sortable'])
 			for (var i = 0; i < splitText.length; i++) {
 				stagingContent.innerHTML += splitText[i];
 				//exceeded page height, create a new page
-				if (stagingContent.outerHeight > pageHeight) {
+				if (stagingContent.clientHeight > pageHeight) {
 					pages[pagesCount] = stagingContent.innerHTML.substring(0, stagingContent.innerHTML.length - splitText[i].length);
 					pagesCount++;
 					stagingContent.innerHTML = splitText[i];
