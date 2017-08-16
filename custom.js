@@ -623,19 +623,22 @@ angular.module('myStudyApp', ['ngSanitize', 'ngTagsInput', 'ng-sortable'])
 			//get all text together
 			var allText = "";
 			var topicSeparator = "<br><br>";
-			allText += myStudy.introductionText + topicSeparator;
+			allText += myStudy.introductionText;
 			
 			if (myStudy.isReport) {
-				allText += myStudy.execSummaryText + topicSeparator;
+				allText += topicSeparator
+				allText += myStudy.execSummaryText;
 			}
 
 			myStudy.topics.forEach(function(topic) {
-				allText += topic.topicText + topicSeparator;
+				allText += topicSeparator
+				allText += topic.topicText;
 			});
 
+			allText += topicSeparator
 			allText += myStudy.conclusionText;
 
-			var splitText = allText.split(/\s/);
+			var splitText = allText.split("");
 
 			//compile pages
 			var stagingBlock = document.getElementById("staging-component-block");
@@ -658,6 +661,8 @@ angular.module('myStudyApp', ['ngSanitize', 'ngTagsInput', 'ng-sortable'])
 				}
 			}
 			pages[pagesCount] = stagingContent.innerHTML;
+			stagingContent.innerHTML = "";
+			console.log(pages);
 			return pages;
 		}
 
