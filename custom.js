@@ -653,6 +653,7 @@ angular.module('myStudyApp', ['ngSanitize', 'ngTagsInput', 'ng-sortable'])
 			var pagesCount = 0;
 			for (var i = 0; i < splitText.length; i++) {
 				stagingContent.innerHTML += splitText[i];
+				console.log(document.getElementById("staging-content").clientHeight);
 				//exceeded page height, create a new page
 				if (document.getElementById("staging-content").clientHeight > pageHeight) {
 					pages[pagesCount] = stagingContent.innerHTML.substring(0, stagingContent.innerHTML.length - splitText[i].length);
