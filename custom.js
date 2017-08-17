@@ -639,13 +639,13 @@ angular.module('myStudyApp', ['ngSanitize', 'ngTagsInput', 'ng-sortable'])
 			allText += myStudy.conclusionText;
 
 			var splitText = allText.split("");
-
 			//compile pages
-			var stagingBlock = document.getElementById("staging-component-block");
-			var stagingContent = document.getElementById("staging-content");
-			$("#staging-component-block").css("visibility", "hidden");
-			var height = $("#staging-component-block").height();
-			console.log("HEIGHT IS " + height);
+			setTimeout(function() {
+				var stagingBlock = document.getElementById("staging-component-block");
+				var stagingContent = document.getElementById("staging-content");
+				$("#staging-component-block").css("visibility", "hidden");
+				var height = $("#staging-component-block").height();
+				console.log("HEIGHT IS " + height);
 			//page size is line height * 39 from cael's definition of a page
 			var lineHeight = 26
 			var pageHeight = 26 * 39;
@@ -665,6 +665,8 @@ angular.module('myStudyApp', ['ngSanitize', 'ngTagsInput', 'ng-sortable'])
 			//stagingContent.innerHTML = "";
 			console.log(pages);
 			return pages;
+			}, 100);
+			
 		}
 
 	}).filter('highlight', function() {
