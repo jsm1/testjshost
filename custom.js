@@ -621,7 +621,7 @@ angular.module('myStudyApp', ['ngSanitize', 'ngTagsInput', 'ng-sortable'])
 		//pagination
 		myStudy.getPages = function() {
 			//get all text together
-			var allText = "";
+		/*	var allText = "";
 			var topicSeparator = "<br><br>";
 			allText += myStudy.introductionText;
 			
@@ -666,7 +666,7 @@ angular.module('myStudyApp', ['ngSanitize', 'ngTagsInput', 'ng-sortable'])
 			pages[pagesCount] = stagingContent.innerHTML;
 			//stagingContent.innerHTML = "";
 			console.log(pages);
-			return pages;
+			return pages;*/
 		}
 
 	}).filter('highlight', function() {
