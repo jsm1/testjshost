@@ -621,7 +621,7 @@ angular.module('myStudyApp', ['ngSanitize', 'ngTagsInput', 'ng-sortable'])
 		//pagination
 		myStudy.getPages = function() {
 			//get all text together
-		/*	var allText = "";
+			var allText = "";
 			var topicSeparator = "<br><br>";
 			allText += myStudy.introductionText;
 			
@@ -640,8 +640,9 @@ angular.module('myStudyApp', ['ngSanitize', 'ngTagsInput', 'ng-sortable'])
 
 			var splitText = allText.split("");
 			//compile pages
+			var i = 0;
 			while ($("#staging-content").height <= 0) {
-				continue;
+				i++;
 			}
 			var stagingBlock = document.getElementById("staging-component-block");
 			var stagingContent = document.getElementById("staging-content");
@@ -666,7 +667,7 @@ angular.module('myStudyApp', ['ngSanitize', 'ngTagsInput', 'ng-sortable'])
 			pages[pagesCount] = stagingContent.innerHTML;
 			//stagingContent.innerHTML = "";
 			console.log(pages);
-			return pages;*/
+			return pages;
 		}
 
 	}).filter('highlight', function() {
