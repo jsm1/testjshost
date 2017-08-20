@@ -670,8 +670,8 @@ angular.module('myStudyApp', ['ngSanitize', 'ngTagsInput', 'ng-sortable'])
 			pages[pagesCount] = stagingContent.innerHTML;
 			//stagingContent.innerHTML = "";
 			console.log(pages);
-			return pages;*/
-		}
+			return pages;
+		}*/
 
 		myStudy.breakIntoWordBlocks = function(text, blockSize) {
 
