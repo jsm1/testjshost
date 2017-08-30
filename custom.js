@@ -324,6 +324,15 @@ angular.module('myStudyApp', ['ngSanitize', 'ngTagsInput', 'ng-sortable'])
 			if (conclusion_matches) {
 				numMatches += conclusion_matches.length;
 			}
+
+			//exec summary if report
+			if (myStudy.isReport) {
+				var exec_summary_matches = myStudy.execSummaryText.match(matchRegex);
+				if (exec_summary_matches) {
+					numMatches += exec_summary_matches.length;
+				}
+			}
+			
 			myStudy.topics.forEach(function(topic, index) {
 				//strip tags
 				//will cause problems if a person uses < and then a > in their writing
