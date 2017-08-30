@@ -431,6 +431,17 @@ angular.module('myStudyApp', ['ngSanitize', 'ngTagsInput', 'ng-sortable'])
 			//regexes 
 			var matchRegex = new RegExp("(\\w+\\s){0,2}\\b(" + strippedText + ")\\b(\\s\\w+){0,2}", "ig");
 			var highlightRegex = new RegExp("\\b(" + strippedText + ")\\b", "ig");
+			if (myStudy.isReport) {
+				//exec summary
+				var execSummaryMatches = myStudy.execSummaryText.match(matchRegex);
+				if (execSummaryMatches) {
+					execSummaryMatches.forEach(function(match) {
+						var formatted = "..." + match.replace(highlightRegex, "<span class='ktar-review-highlighted-text'>$1</span>") + "...";
+						snippets.push(formatted);
+					});
+				}				
+			}
+
 
 			//intro
 			var introMatches = myStudy.introductionText.match(matchRegex);
