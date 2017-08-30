@@ -26,7 +26,7 @@
 		"entryField": "",
 		"userKtars": [
 		],
-		"lectureKtars": [
+		"lectureKtars": ["transistor", "cross band", "switchboard exchange"
 		]
 
 	},
@@ -35,7 +35,7 @@
 		"entryField": "",
 		"userKtars": [
 		],
-		"lectureKtars": [
+		"lectureKtars": ["M. Phillips"
 		]
 
 	},
@@ -44,7 +44,7 @@
 		"entryField": "",
 		"userKtars": [
 		],
-		"lectureKtars": [
+		"lectureKtars": ["M. Phillips 'The history of scanners'"
 		]
 
 	}
