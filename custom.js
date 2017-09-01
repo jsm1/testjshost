@@ -553,7 +553,7 @@ angular.module('myStudyApp', ['ngSanitize', 'ngTagsInput', 'ng-sortable'])
 		myStudy.loadTemplateData = function(template, cleanLoad) {
 			var url = "";
 			if (template === 'empty_report') {
-				url = "https://rawgit.com/jsm1/testjshost/master/empty_essay.json";
+				url = "https://rawgit.com/jsm1/testjshost/master/empty_report.json";
 				myStudy.isReport = true;
 				myStudy.type = template;
 			} else if (template === 'empty_essay') {
