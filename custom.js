@@ -176,7 +176,7 @@ angular.module('myStudyApp', ['ngSanitize', 'ngTagsInput', 'ng-sortable'])
 		}
 
 		myStudy.shouldShowBody = function() {
-			if (myStudy.topics.length == 0 || (myStudy.topics.length == 1 && !myStudy.topics[0].title)) {
+			if (myStudy.topics.length == 0) {
 				return true;
 			}
 			return false;
