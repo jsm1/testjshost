@@ -37,6 +37,7 @@ angular.module('myStudyApp', ['ngSanitize', 'ngTagsInput', 'ng-sortable'])
 				keyPointTitle: "", 
 				importance: "1"
 			}], topicText: "", wordLimit: 1});
+			myStudy.calculateWordLimits();
 		};
 
 		myStudy.removeTopic = function(topicIndex) {
@@ -46,6 +47,7 @@ angular.module('myStudyApp', ['ngSanitize', 'ngTagsInput', 'ng-sortable'])
 			}
 			//delete 1 topic at index
 			myStudy.topics.splice(index, 1);
+			myStudy.calculateWordLimits();
 		}
 
 		myStudy.addKeyPoint = function(index) {
@@ -58,6 +60,7 @@ angular.module('myStudyApp', ['ngSanitize', 'ngTagsInput', 'ng-sortable'])
 				importance: "3",
 				wordLimit: 1
 			});
+			myStudy.calculateWordLimits();
 		};
 
 		myStudy.ktars = [
@@ -215,6 +218,7 @@ angular.module('myStudyApp', ['ngSanitize', 'ngTagsInput', 'ng-sortable'])
 			}
 			//delete 1 topic at index
 			myStudy.topics[topicIndex].keyPoints.splice(index, 1);
+			myStudy.calculateWordLimits();
 		}
 
 		myStudy.swapKeyPoints = function(parent, from, to) {
