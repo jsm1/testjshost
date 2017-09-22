@@ -65,7 +65,7 @@ angular.module('myStudyApp', ['ngSanitize', 'ngTagsInput', 'ng-sortable'])
 
 		myStudy.ktars = [
 			{
-				title: "Terminology",
+				title: "Key Terminology",
 				entryField: "",
 				userKtars: [
 				],
