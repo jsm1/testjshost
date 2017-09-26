@@ -203,11 +203,10 @@ angular.module('myStudyApp', ['ngSanitize', 'ngTagsInput', 'ng-sortable'])
 		}
 
 		myStudy.makeWritingAreaFocused = function(clickEvent) {
-			var target = $(clickEvent.target)
 			setTimeout(function() {
-				target.closest("[contenteditable='true']").focus();
-
-			}, 100);
+				var target = $(clickEvent.target);
+				target.closest("[contenteditable='true']").html("HIIIII");
+			}, 100, clickEvent);
 		}
 
 		myStudy.removeKeyPoint = function(parentIndex, index) {
