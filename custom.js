@@ -205,7 +205,7 @@ angular.module('myStudyApp', ['ngSanitize', 'ngTagsInput', 'ng-sortable'])
 		myStudy.makeWritingAreaFocused = function(clickEvent) {
 			var target = $(clickEvent.target)
 			setTimeout(function() {
-				target.parent().find("[contenteditable]").focus();
+				target.closest("[contenteditable]").focus();
 
 			}, 100);
 		}
