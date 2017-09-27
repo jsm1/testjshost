@@ -7,12 +7,12 @@
 			"importance": "4", 
 			"keyPoints": [{
 				"keyPointTitle": "Socio-Economic Developments", 
-				"importance": "4",
+				"importance": "3",
 				"wordLimit": "1"
 			},
 			{
 				"keyPointTitle": "Irish Sympathisers", 
-				"importance": "5",
+				"importance": "3",
 				"wordLimit": "1"
 			}],
 			"topicText": "<div>In his article, Ned Kelly's Sympathisers, Doug Morrissey suggests that Kelly's Irish heritage was largely responsible for the Kelly outbreak. To support his claim, he points to the intense emotional relationships in the Quinn/Kelly clan and the high percentage of Irish sympathisers among Ned's supporters.</div><div><br></div><div>Ned Kelly was clearly imbued with a sense of his Irish heritage, but the evidence does not suggest that this was a major contributing factor in the outbreak. Public sympathy, it seemed, crossed social and ethnic barriers and was quite widespread, especially after the Euroa National Bank robbery, where the efficiency, lack of violence and manner of the gang were well noted. Furthermore, Ned once stated that he considered himself an Australian rather than an Irishman, and his lifestyle, and his affinity with local issues shown in his letters lend credence to this statement.</div>",
@@ -32,12 +32,12 @@
 			"importance": "2", 
 			"keyPoints": [{
 				"keyPointTitle": "Cultural Effects", 
-				"importance": "4",
+				"importance": "3",
 				"wordLimit": "1"
 			},
 			{
 				"keyPointTitle": "Legacy", 
-				"importance": "2",
+				"importance": "3",
 				"wordLimit": "1"
 			}],
 			"topicText": "",

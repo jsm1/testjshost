@@ -33,10 +33,7 @@ angular.module('myStudyApp', ['ngSanitize', 'ngTagsInput', 'ng-sortable'])
 		myStudy.type = "empty_essay";
 
 		myStudy.addTopic = function() {
-			myStudy.topics.push({title: "", importance: "3", keyPoints: [{
-				keyPointTitle: "", 
-				importance: "1"
-			}], topicText: "", wordLimit: 1});
+			myStudy.topics.push({title: "", importance: "3", keyPoints: [], topicText: "", wordLimit: 1});
 			myStudy.calculateWordLimits();
 		};
 

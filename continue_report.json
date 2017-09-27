@@ -7,12 +7,12 @@
 			"importance": "4", 
 			"keyPoints": [{
 				"keyPointTitle": "Drum Scanners", 
-				"importance": "4",
+				"importance": "3",
 				"wordLimit": "1"
 			},
 			{
 				"keyPointTitle": "Flatbed Scanners", 
-				"importance": "5",
+				"importance": "3",
 				"wordLimit": "1"
 			}],
 			"topicText": "<div>A scanner is a device that uses a light source to electronically convert an image into binary data (0s and 1s). This binary data can then be used to store the scanned image on a computer. A scanner recreates an image by using small electronic components referred to as the scanner's 'eyes' (Scanner tips 2000). The type of 'eyes' used in today's scanners are charge-coupled devices (CCD) and photomultiplier tubes (PMT). These electronic eyes measure the amount of light reflected from individual points on the page and translate it to digital signals that correspond to the brightness of each point (Englander 2000).</div>",
