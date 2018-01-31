@@ -584,7 +584,7 @@ angular.module('myStudyApp', ['ngSanitize', 'ngTagsInput', 'ng-sortable'])
 				return;
 			}*/
 
-			$http.get((url))
+			$http.get(url)
 			.then(function(response) {
 
 				myStudy.load(response.data);
@@ -595,7 +595,7 @@ angular.module('myStudyApp', ['ngSanitize', 'ngTagsInput', 'ng-sortable'])
 					myStudy.templateLoaded = true;
 				}*/
 				myStudy.typeLoaded[template] = true;
-			}, function() {
+			}, function(error) {
 				console.log("error");
 			});
 		}
