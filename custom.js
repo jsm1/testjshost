@@ -122,6 +122,8 @@ angular.module('myStudyApp', ['ngSanitize', 'ngTagsInput', 'ng-sortable'])
 		};
 
 		myStudy.load = function(arg) {
+			//cancel interval temporarily
+			$inteval.cancel(myStudy.saveInterval);
 			var dataString;
 			if (myStudy.type) {
 				dataString = window.localStorage.getItem(myStudy.type + "_data");
@@ -156,11 +158,11 @@ angular.module('myStudyApp', ['ngSanitize', 'ngTagsInput', 'ng-sortable'])
 			myStudy.introductionText = dataObject.introductionText;
 			myStudy.conclusionText = dataObject.conclusionText;*/
 
-
+			myStudy.saveInterval = $interval(myStudy.save, 500);
 		};
 
 		myStudy.load();
-		$interval(myStudy.save, 500);
+		myStudy.saveInterval = $interval(myStudy.save, 500);
 
 		
 
