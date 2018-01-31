@@ -123,7 +123,7 @@ angular.module('myStudyApp', ['ngSanitize', 'ngTagsInput', 'ng-sortable'])
 
 		myStudy.load = function(arg) {
 			//cancel interval temporarily
-			$inteval.cancel(myStudy.saveInterval);
+			$interval.cancel(myStudy.saveInterval);
 			var dataString;
 			if (myStudy.type) {
 				dataString = window.localStorage.getItem(myStudy.type + "_data");
