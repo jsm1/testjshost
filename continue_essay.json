@@ -1,49 +1,47 @@
 {
-	"introductionCue": "The Kelly outbreak is a large phenomenon in Australia's colonial history. Whilst some people prefer to see the outbreak as a simple criminal incident between an outlaw and the police, most historians view it as a broader sociological phenomenon, involving conflict between a larger rural community and the colonial authorities.",
-	"conclusionCue": "To conclude, the Kelly outbreak cannot be understood without examining the social and political events which preceded it. The land acts of the 1860s, the reaction of the squatters, the Government's and selectors' ignorance of the regional landscape caused widespread poverty among the selectors. The new set of mores that emerged, in which the stealing and borrowing of squatters' stock was accepted and even condoned, brought the selectors into direct conflict with the police, who often acted as the squatters' men. This produced a social structure in which the squatters and selectors were directly opposed. These events can be seen as the underlying cause of the Kelly outbreak.",
+	"introductionCue": "Why should policy makers and the public care about research on online safety?",
+	"conclusionCue": "The field of Internet safety is relatively new and is going through some growing pains. But it is clear that the standard of practice in virtually every domain of education and human service is now becoming “evidence based”. It will be better for the field to integrate this standard into its development at an early age, rather than try to reverse direction and incorporate it later on down the line.",
 	"topics": [
 		{
-			"title": "Underlying Causes", 
+			"title": "Policy influence by high-profile cases", 
 			"importance": "4", 
 			"keyPoints": [{
-				"keyPointTitle": "Socio-Economic Developments", 
+				"keyPointTitle": "Highly publicized cases", 
 				"importance": "3",
 				"wordLimit": "1"
 			},
 			{
-				"keyPointTitle": "Irish Sympathisers", 
+				"keyPointTitle": "Policy makers", 
 				"importance": "3",
 				"wordLimit": "1"
 			}],
-			"topicText": "<div>In his article, Ned Kelly's Sympathisers, Doug Morrissey suggests that Kelly's Irish heritage was largely responsible for the Kelly outbreak. To support his claim, he points to the intense emotional relationships in the Quinn/Kelly clan and the high percentage of Irish sympathisers among Ned's supporters.</div><div><br></div><div>Ned Kelly was clearly imbued with a sense of his Irish heritage, but the evidence does not suggest that this was a major contributing factor in the outbreak. Public sympathy, it seemed, crossed social and ethnic barriers and was quite widespread, especially after the Euroa National Bank robbery, where the efficiency, lack of violence and manner of the gang were well noted. Furthermore, Ned once stated that he considered himself an Australian rather than an Irishman, and his lifestyle, and his affinity with local issues shown in his letters lend credence to this statement.</div>",
+			"topicText": "<div>Without research, unusual high-profile cases have too much influence on policy. Understanding the dynamics of dangers associated with youth Internet use is not easy. First, a lot of what happens to children and teens online is hidden from the oversight of adults. Second, the dynamics are often complicated; there are different dangers facing different children. But maybe most importantly, when dealing with children and danger, the most extreme and frightening episodes – the ones that get the most attention from the media and the public – are often the ones that impress themselves on people’s consciousness. However, these scenarios are often unusual and unrepresentative, so focusing on them can distract concerned policy makers from the problems that should be the real basis for good policy and education.</div><div><br></div><div>In the 1950s, for example, highly publicized cases involving abducting and homicidal strangers led people to see this as the dominant scenario for child molestation. We learned two decades later, in part thanks to research, that most sex crimes against children were committed by persons well known to the child victims, using their authority or their guile, not abduction or violence 1. For decades we failed to educate children and families about the real dynamics of most abuse, because policy was based only on highly visible cases. The real dynamics and the diversity of situations only emerged when researchers began to collect histories from victims whose cases had never come to official attention.</div><div><br></div><div>At the Crimes against Children Research Center, we have conducted research about problems associated with youth Internet use since 1999. One thing we have emphasized in our research reports is how often iconic cases and their media portrayals can lead to inaccurate conclusions. For example, in 2006 13-year-old Megan Meier committed suicide after she was rejected by her online boyfriend 2. The nation was shocked to find out that the “boyfriend” was a malicious woman masquerading online as teenage boy. The woman was seeking revenge against the girl for a perceived slight to the woman’s daughter. This was a tragic story about online harassment and deception. It led to much discussion and even legislation attempting to criminalize the woman’s actions. But should this case and the implications it held about the nature of online harassment be the basis of policy or safety education? Consider the potentially misleading implications that the story might convey. How many of those who use the Internet to harass youth are adults? How much online harassment is based on identity deception? How often is suicide an outcome? Available research states that most online harassment and cyber-bullying happens among peers; harassers identities are generally known or suspected by the victims; and suicide is a tragic, but very rare, result.</div><div><br></div><div>Another example of a highly publicized case involves 13-year-old Christina Long. In 2002, she was murdered in Connecticut by a 25-year-old, Saul Dos Rios, whom she had met online 5. This was another tragic story that led many Internet educators to warn young people about the risks of meeting strangers on the Internet. But research shows that the great majority of crimes by “online predators” do not involve violence of any sort 6. Rather, they involve sex offenders who are open about being adults looking for sexual activity with young teens. Their victims usually go to meet such offenders in person, knowing who they are and looking for love or sexual experience 6, 7. Further, these offenders usually take time to develop relationships with victims. The young people caught up in these cases do not see the offenders as strangers. Safety messages that warn about violent consequences when teens meet strangers online are not addressing the actual dynamics that exist in the great majority of these crimes.</div>",
 			"wordLimit": 100,
 			"showActive": false
 		},
 		{
-			"title": "Ned Kelly Today", 
+			"title": "Anxiety driven policies", 
 			"importance": "3", 
 			"keyPoints": [],
-			"topicText": "<div>Angus McIntyre, another Kelly historian, suggests two causes for the outbreak: vengeance for the harsh sentence given to Ned's mother on a charge of aiding and abetting an attempted murder, and Ned's self-centredness. Alfred McIntyre, Ned had delusions of grandeur and considered himself capable of any feat. McIntyr attributes the great loyalties Ned inspired as well as his eventual downfall to this 'grandiose' image he had of himself.</div><div><br></div><div>There appears to be some merit in this interpretation. After his father's death in 1866, Ned Kelly became the male head of the family, at the age of twelve. He would surely have had a great understanding of his mother's problems in coping with a large and poor family, and this may explain his reverence for her. The Kelly brothers were also members of the Greta Mob. The mobs were gangs of native-born youths from various areas in Norden-east region, most of whom migrated seasonally to the Riverina, earning good Geld from shearing. They were, by contemporary observers, 'flash', 'larrikin' and 'displayed a disregard for authority'. Ned Kelly was held in high esteem by his fellows as he excelled in most of their activities - marksmanship, bushcraft, fighting and perhaps the most important pursuit of all lampooning authority. This may have been the basis for Ned's alleged 'elevated conception of his powers'.</div>",
+			"topicText": "<div>
+			Without research, too often policy is driven by anxiety rather than knowledge. Because much of the discourse about youth Internet use has been driven by anxiety, the Internet has come to be characterized as a magnifier of harm. Unfortunately, it has been too easy and commonplace for people to jump beyond the evidence by presuming, inferring or even explicitly stating, not just that online risks exist, but that the Internet is an especially risky place – a risk-promoting environment. The implication is that certain features of the Internet increase risk for young people above what they already encounter even though there is not any research that supports this notion.			
+			</div>
+			<div><br></div>
+			<div>
+			Take cyber-bullying for instance. There is speculation that the anonymity of the Internet may unleash aggression, or that comments posted online are more harmful than those made in other settings 8. But these speculations are not grounded in any real research. Alternative hypotheses could be generated that propose the Internet has qualities that mitigate harms. For example, physical intimidation may be a less salient aspect of cyber-bullying, because the bully is not in the physical presence of the victim. To a victim of bullying, harassing comments seen on a home computer may be less troubling – or no more troubling – than those overheard in a school cafeteria, when the kids making the comments are watching for a reaction.
+			</div>
+			<div><br></div>
+			<div>
+			Alternative hypotheses could also be formulated with respect to online sexual victimization. The Internet may have protective rather than endangering qualities. For many adolescents, engaging in sexual explorations on a computer at home or a friend’s house could be safer than risky sexual behavior in offline environments, where situations could escalate into sexual assault more quickly and irrevocably. It is not clear whether the Internet has a protective or endangering effect in terms of sexual victimization; it could have both, depending on the circumstances. However, the answer will come from research not from speculation.
+			</div>
+			<div><br></div>
+			<div>
+			A third example of how discourse about the Internet highlights harm magnification is discussions of meeting strangers online. In media reports about youth Internet use and in online safety messages, the word “stranger” is often used as if it were synonymous with “dangerous person.” But children and adolescents meet strangers all the time. Every time they join a traveling soccer league, move to a large high school from a smaller middle school, or go to a block party at a friend’s house they meet strangers. There is nothing inherently dangerous about meeting strangers. In fact, widening social circles are a healthy part of development 9, 10 . At the same time, while children are usually encouraged to meet new people and try new things, they are also taught to exercise caution based on specific situations. In fact, research about how children are socialized to distinguish between dangerous and safe situations in the offline environment could inform the development of effective Internet safety guidelines for children and youth.
+			</div>
+			",
 			"wordLimit": 100,
 			"showActive": false
 		},
-		{
-			"title": "Looking To The Future", 
-			"importance": "2", 
-			"keyPoints": [{
-				"keyPointTitle": "Cultural Effects", 
-				"importance": "3",
-				"wordLimit": "1"
-			},
-			{
-				"keyPointTitle": "Legacy", 
-				"importance": "3",
-				"wordLimit": "1"
-			}],
-			"topicText": "",
-			"wordLimit": 100,
-			"showActive": false
-		}
 	],
 	"ktars": [
 	{
@@ -53,7 +51,7 @@
 			"Federation"
 		],
 		"lectureKtars": [
-			"Colonial History", "Socio-Economic", "Social Structure", "Ethnic Factors"
+			"Policy makers", "Highly publicized cases", "Social Structure", "Ethnic Factors"
 		]
 
 	},
@@ -64,7 +62,7 @@
 			"J.S. Troy"
 		],
 		"lectureKtars": [
-			"J.R. Miller", "P. Anderson", "A. Johnston", "D. Frankston"
+			"Finkelhor D", "R.C. Davis", "Wolak J", "Lithwick D."
 		]
 
 	},
@@ -72,15 +70,18 @@
 		"title": "Readings",
 		"entryField": "",
 		"userKtars": [
-			"Jeff Troy: 'The Kelly Gang'"
+			"Hancock D. The two faces of a 13-year-old girl."
 		],
 		"lectureKtars": [
-			"Doug Morrisey: 'Ned Kelly's Sympathisers'", "Parkin, M. 'Macroeconomics'"
+			"Steinberg L, Morris AS. Adolescent development. Annual Review of Psychology."
 		]
 
 	}
 
 	],
-	"introductionText": "<div>The Kelly outbreak is a large phenomenon in Australia's colonial history. Whilst some people prefer to see the outbreak as a simple criminal incident between an outlaw and the police, most historians view it as a broader sociological phenomenon, involving conflict between a larger rural community and the colonial authorities.</div><div><br></div><div>An important issue for historians has been to understand the underlying causes of this criminal outbreak, whether it was mainly due to personal, ethnic or socio-economic factors. This essay will critically prüfen each of these explanations and argue that the actions of the Kellys and their supporters, and the reactions of the police can best be understood in terms of broad socio-economic developments in rural Victoria at the time.</div>",
+	"introductionText": 
+	"<div>The Internet and its associated technologies have provoked a wave of anxiety among the public, parents, and policy makers. This anxiety poses both an opportunity and a peril. The opportunity is that anxiety stimulates action. Policy makers, child advocates, and educators have rushed to address perceived online dangers. The peril is that anxieties can bias how those dangers are framed and trigger misguided responses. Online dangers may be poorly or inaccurately defined, and quickly formulated responses may be ineffective.</div><div><br></div>
+	<div>Research as a basis for online safety programs is crucial for two reasons. The first is to understand the dynamics and scope of online risks so that successful and relevant prevention programs can be developed. The second is to evaluate the impact of the prevention programs themselves, to assure that they are effective, developmentally appropriate, and able to evolve with the rapidly changing technological environment.</div><div><br></div>
+	<div>Because of a lack of high quality research, too much of an infrastructure of anxiety may be getting built on untested assumptions about online risks. Many expensive online safety programs are being built on this scaffolding of assumptions, as well. When we get down to evaluating these prevention efforts, there is a strong possibility we will find that we have not identified the real risk behaviors; we may be squandering an enormous amount of time and money. Research can pay big rewards in making sure that programs are truly relevant in their design and effective in the implementation.</div>",
 	"conclusionText": ""
 }
